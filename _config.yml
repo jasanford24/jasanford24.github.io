@@ -1,19 +1,19 @@
 title: Strata by HTML5 UP
 description: >
-  **Jesse Sanford.
+  Jesse Sanford
 copyright: Untitled
 sass:
   sass_dir: assets/sass
 url: http://localhost:4000
 disqus_shortname:
 facebook_username:
-twitter_username: "#"
+twitter_username:
 linkedin_username: "jesse-sanford-352705112"
 instagram_username:
 pinterest_username:
 flickr_username:
 github_username:  "jasanford24"
-feed_icon: rss
+feed_icon:
 email: "jasanford24@gmail.com"
 gems: [jekyll-paginate]
 paginate_path: "/page/:num/"
