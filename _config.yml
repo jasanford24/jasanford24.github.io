@@ -17,4 +17,4 @@ feed_icon:
 email: "jasanford24@gmail.com"
 gems: [jekyll-paginate]
 paginate_path: "/page/:num/"
-paginate: 5
+paginate: 10
