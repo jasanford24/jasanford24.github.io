@@ -1,8 +1,6 @@
 title: Strata by HTML5 UP
 description: >
-  **I am Strata**, a super simple
-  responsive site template freebie
-  crafted by [HTML5 UP](http://html5up.net).
+  **Jesse Sanford.
 copyright: Untitled
 sass:
   sass_dir: assets/sass
@@ -16,7 +14,7 @@ pinterest_username:
 flickr_username:
 github_username:  "jasanford24"
 feed_icon: rss
-email: "#"
+email: "jasanford24@gmail.com"
 gems: [jekyll-paginate]
 paginate_path: "/page/:num/"
 paginate: 5
