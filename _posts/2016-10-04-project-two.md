@@ -13,9 +13,11 @@ At this point I began exploring the data.  I developed the hypothesis that the l
 <br>
 <img src="https://jasanford24.github.io/images/billboard_scatter.png">
 <br>
-I immediately noticed something strange happening around 20 weeks.  So I created a graph to depict the decrease in number of tracks as the number of weeks the track was on the billboard increased.  Eighty-one tracks failed to make it from week 19 to 20.  Almost 25% of the entire dataset stopped at 19 weeks on the billboard.  I found the average of the average ranking of tracks that made it past week 20 and compared it to the average of the average ranking of tracks up to and including week 20.  The rank average above week 20 was 28 while the rank average below week 20 was 69.7.  
+I immediately noticed something strange happening around 20 weeks.  So I created a graph to depict the decrease in number of tracks as the number of weeks the track was on the billboard increased.  Eighty-one tracks failed to make it from week 19 to 20.  Almost 25% of all tracks stopped at 19 weeks on the billboard.  I found the average of the average ranking of tracks that made it past week 20 and compared it to the average of the average ranking of tracks up to and including week 20.  The rank average above week 20 was 28 while the rank average below week 20 was 69.7.  
 <br>
 <img src="https://jasanford24.github.io/images/falloff_line.png">
-<br><br>
+<br>
+I decided to look at the genre composite of the tracks that were on the Top 100 Chart for over 20 weeks.  Both Rock and Rock'n'Roll dominated the list of tracks over 20 weeks.
+<br>
 <img src="https://jasanford24.github.io/images/genres_bar.png">
 </center>
