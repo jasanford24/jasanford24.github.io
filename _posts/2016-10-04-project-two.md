@@ -1,6 +1,7 @@
 <center>
 <br>
-<font size="32"><font face="arial">Project Two</font></font>
+<font face="arial">
+<font size="32">Project Two</font>
 <br>
 Evaluation of the 2000's Top 100 Hits Billboard Data Set
 
@@ -14,6 +15,7 @@ At this point I began exploring the data.  I calculated the average rank of each
 <br>
 <img src="https://jasanford24.github.io/images/billboard_scatter.png">
 <br>
+I immediately noticed something strange happening at 20 weeks.
 <br>
 <img src="https://jasanford24.github.io/images/falloff_line.png">
 <br><br>
