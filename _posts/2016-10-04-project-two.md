@@ -1,9 +1,10 @@
 <center>
 <br>
 ## Test
+<br>
 Evaluation of the 2000's Top 100 Hits Billboard Data Set
 
-<b>The following graph shows the relation between average song ranking and number of weeks on the chart.</b>
+<br><b>The following graph shows the relation between average song ranking and number of weeks on the chart.</b>
 
 
 <img src="https://jasanford24.github.io/images/billboard_scatter.png">
