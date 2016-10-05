@@ -1,4 +1,5 @@
-<center>\n
+<center>
+<br>
 ## Test
 Evaluation of the 2000's Top 100 Hits Billboard Data Set
 
@@ -6,7 +7,7 @@ Evaluation of the 2000's Top 100 Hits Billboard Data Set
 
 
 <img src="https://jasanford24.github.io/images/billboard_scatter.png">
-\n\n\n\n
+
 <img src="https://jasanford24.github.io/images/falloff_line.png">
 
 <img src="https://jasanford24.github.io/images/genres_bar.png">
