@@ -1,6 +1,6 @@
 <center>
 <br>
-<font size="32"><font face="arial">Project Two</font>
+<font size="32"><font face="arial">Project Two</font></font>
 <br>
 Evaluation of the 2000's Top 100 Hits Billboard Data Set
 
