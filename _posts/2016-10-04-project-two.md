@@ -20,4 +20,3 @@ I immediately noticed something strange happening around 20 weeks.  So I created
 I decided to look at the genre composite of the tracks that were on the Top 100 Chart for over 20 weeks.  Both Rock and Rock'n'Roll dominated the list.
 <br>
 <img src="https://jasanford24.github.io/images/genres_bar.png">
-</center>
