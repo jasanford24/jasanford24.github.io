@@ -1,25 +1,16 @@
 <center>
-<br>
-<font face="arial">
-<font size="32">Project Two</font>
-<br><br>
-Evaluation of the 2000's Top 100 Hits Billboard Data Set
+<h2>Problem Statement</h2>
+<p>Given 2015 and 2016 Iowa liquor sales data, determine the best locations for a new storefront.</p>
 
-<br>
-<br>
-I started the project by reading in the data with pandas then looking at how the data was stored.  I began cleaning up the data by converting week entries with * to NaN.  I then converted the weeks columns to ints and floats where applicable.  I took the time column and converted it to seconds as an integer.  I converted the artist, track, date entered, date peaked columns from unicode to string to save memory.  Next, I noticed that there were two R&B genres so I combined them.  I left Rock and Rock'n'Roll as separate entities as one could argue that they are two separate genres.  I discovered later that I needed to rename the first ten weeks columns as the pivot_table function tried sorting them alphabetically and it began to throw off my data.
-<br><br>
-At this point I began exploring the data.  I developed the hypothesis that the longer the track was on the billboard, the higher its average ranking would be.  To test my hypothesis, I calculated the average rank of each track's position on the billboard and added it to the end of my data.  I also counted the total number of weeks each track was on the billboard and added it to the end.  I then created the following graph to show the relation between average song ranking and total number of weeks the track was on the chart.  I inverted the Y-axis to properly simulate the rankings of the billboard chart.
-<br>
-<img src="https://jasanford24.github.io/images/billboard_scatter.png">
-<br>
-I immediately noticed something strange happening around 20 weeks.  So I created a graph to depict the decrease in number of tracks as the number of weeks the track was on the billboard increased.  Eighty-one tracks failed to make it from week 19 to 20.  Almost 25% of all tracks stopped at 19 weeks on the billboard.  I found the average of the average ranking of tracks that made it past week 20 and compared it to the average of the average ranking of tracks up to and including week 20.  The rank average above week 20 was 28 while the rank average below week 20 was 69.7.  
-<br>
-<img src="https://jasanford24.github.io/images/falloff_line.png">
-<br>
-I decided to look at the genre composite of the tracks that were on the Top 100 Chart for over 20 weeks.  Both Rock and Rock'n'Roll dominated the list.
-<br>
-<img src="https://jasanford24.github.io/images/genres_bar.png">
-<br>
-Final analysis of the data shows that low average tracks are extremely unlikely to make it past the 20 week hump.  
-<br>
+<h2>Risks and Assumptions</h2>
+<p>We chose to work with only 10% of the dataset. There were 2.7 million transactions in the entire data and we only worked with 270,000 transactions. There were also several errors in the dataset. We cleaned up the data as extensively as we could but ended up dropping a couple hundred rows that didn't have complete data. We also did not remove any outliers so there could be one stores that heavily skews the data for certain counties.  </p>
+<p>
+We assumed that the best place to build a new store would be near stores that are performing exceptionally well. Our main assumption here is that location is the main predictor of success for our store, but a store can perform well for several different reasons. They can have very high advertising budgets, could have monopolies on certain areas (maybe a University only allows 2 liquor stores near campus), great supply chain management, etc. 
+</p>
+
+<h2>Data Analysis</h2>
+<p>
+We wanted to see which stores had the highest sales and where they were located. Des Moines had the two highest performing stores (2633 and 4829) which had total sales of $407,000 and $363,000 respectively. There is over a 50% dropoff to the next best store which was in Iowa City and had sales of $177,000 dollars.  
+
+</p>
+
