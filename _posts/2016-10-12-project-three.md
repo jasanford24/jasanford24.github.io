@@ -26,9 +26,6 @@ We wanted to see which stores had the highest sales and where they were located.
 
 <p>
 	We created a linear regression model to try to predict where sales would be highest based on 'County', 'State Bottle Retail' and 'Bottles Sold'. We used the 2015 data as our training data to predict what sales would be like in 2016. Below are graphs of how our model compared to 'Actual Sales' and what the residuals looked like.
-
-	<img src="http://i64.tinypic.com/121zsiw.png">
-	<img src="http://i65.tinypic.com/11ryyiv.png">
 </p>
 <p>
 In order to achieve our main goal of determining where the best performing stores are, we plotted the top 10 counties with the highest sales. Taking it one step further we wanted to see what the average sales were per store in those counties. After correcting to show the results per store, we found that sales per store did not vary nearly as much as sales per county. 
